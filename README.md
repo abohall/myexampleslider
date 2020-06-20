@@ -5,10 +5,10 @@ It was built for our needs, and now that I've had time to reflect on it, I would
 
 Everything you want to be placed in a slider should go into a <template> tag. Each template tag with the class 'tnt-slider-template' is then constructed into a working slider. 
   
-<template class="tnt-slider-template">
-<img src="../" alt=".."/>
-<img src="../" alt=".."/>
-</template>
+template class="tnt-slider-template"
+img src="../" alt=".."/
+img src="../" alt=".."/
+/template
   
 As I developed this slider, I used data attributes to control what it did. 
 
